@@ -50,3 +50,9 @@ If all the packages and modules installed successfully, your default web browser
 * [Istanbul](https://istanbul.js.org/)
 * [TypeScript](https://www.typescriptlang.org/)
 * [Webpack](https://webpack.js.org/)
+
+## Debugging in VSCode
+
+Steps:
+
+> Launch the debugger twice, the first time will run the mongo server and open up localhost in the browser
