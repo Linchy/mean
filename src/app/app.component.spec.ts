@@ -45,14 +45,14 @@ describe(`App`, () => {
   });
 
   it(`should be readly initialized`, () => {
-    expect(fixture).toBeDefined();
+    expect(fixture).toBeDefined(); 
     expect(comp).toBeDefined();
   });
 
   it(`should be @AngularClass`, () => {
-    expect(comp.url).toEqual('https://twitter.com/AngularClass');
+    expect(comp.url).toEqual('https://mean.io');
     expect(comp.angularclassLogo).toEqual('assets/img/angularclass-avatar.png');
-    expect(comp.name).toEqual('Angular 2 Webpack Starter');
+    expect(comp.name).toEqual('Mean stack starter');
   });
 
   it('should log ngOnInit', () => {

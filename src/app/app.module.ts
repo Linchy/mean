@@ -34,9 +34,10 @@ import { AppComponent } from './app.component';
 import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InternalStateType } from './app.service';
 import { HomeComponent } from './home';
+import { TreeModule } from 'angular-tree-component';
+import { FeaturesTreeComponent } from './features-tree';
 import { ReactComponent } from './react';
 import { ProfileComponent } from './profile';
-//import { angularProfileCard } from '../../components/main-profile/index';
 import { NoContentComponent } from './no-content';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -63,6 +64,7 @@ type StoreType = {
   declarations: [
     AppComponent,
     HomeComponent,
+    FeaturesTreeComponent,
     ReactComponent,
     ProfileComponent,
     NoContentComponent,
@@ -74,6 +76,7 @@ type StoreType = {
     BrowserAnimationsModule,
     BrowserModule,
     FormsModule,
+    TreeModule,
     ReactiveFormsModule,
     HttpModule,
     MdToolbarModule,
