@@ -45,7 +45,7 @@ describe(`App`, () => {
   });
 
   it(`should be readly initialized`, () => {
-    expect(fixture).toBeDefined(); 
+    expect(fixture).toBeDefined();
     expect(comp).toBeDefined();
   });
 

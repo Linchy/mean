@@ -10,8 +10,8 @@ export class HomeComponent {
 
     constructor() {
       this.list = [
-        { title: "a", items: [{ title: "b" }] },
-        { title: "dd", items: [{ title: "cc" }] },
+        { title: 'a', items: [{ title: 'b' }] },
+        { title: 'dd', items: [{ title: 'cc' }] },
       ];
     }
 }

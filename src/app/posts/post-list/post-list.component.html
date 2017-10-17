@@ -9,7 +9,7 @@
     <md-input-container>
         <input mdInput type="search" [(ngModel)]='listPostFilter' [formControl]="postControl" placeholder="search...">
     </md-input-container>
-    <md-card *ngFor="let post of posts | async | postsFilter:listPostFilter">
+    <md-card *ngFor="let post of posts | async | myPostsFilter:listPostFilter">
         <md-list>
             <md-list-item>
                 <a md-line [routerLink]="['/posts/post-detail', post.id]"> {{post.title}} </a>
