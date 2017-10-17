@@ -6,5 +6,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html'
 })
 export class HomeComponent {
-    
+    public list;
+
+    constructor() {
+      this.list = [
+        { title: "a", items: [{ title: "b" }] },
+        { title: "dd", items: [{ title: "cc" }] },
+      ];
+    }
 }

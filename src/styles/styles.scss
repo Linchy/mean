@@ -19,12 +19,13 @@ nav a {
 }
 
 @import '~@angular/material/_theming';
+@import '~angular-tree-component/dist/angular-tree-component.css';
 
 // NOTE: Theming is currently experimental and not yet publicly released!
 
 @include mat-core();
 
-$primary: mat-palette($mat-light-blue);
+$primary: mat-palette($mat-grey);
 $accent:  mat-palette($mat-amber, A200, A100, A400);
 
 $theme: mat-light-theme($primary, $accent);

@@ -5,8 +5,12 @@ body {
 }
 
 md-card {
-  max-width: 80%;
+  width: 100%;
   margin: 2em auto;
+}
+
+.text-inside-grid {
+  align-self: normal;
 }
 
 md-toolbar-row {
@@ -21,7 +25,7 @@ md-toolbar-row {
 #daphne {
   margin-top:5%;
 }
-
+ 
 .done {
   position: fixed;
   bottom: 20px;
